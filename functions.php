@@ -19,8 +19,27 @@ if ( ! function_exists( 'rc_enqueue_child_styles' ) ) {
 	    wp_register_style( 'reptro-child-style', get_stylesheet_directory_uri() . '/style.css' );
 	    wp_enqueue_style( 'reptro-child-style' );
 
+		// loading child scripts
+		wp_enqueue_script( 'reptro-child-script', get_stylesheet_directory_uri() . '/assets/js/scripts.js', '', null, true );
+
 	}
     add_action( 'wp_enqueue_scripts', 'rc_enqueue_child_styles' );
 }
 
 /* Write here your own functions */ 
+
+/**
+ * Add settings page
+ */
+require_once( dirname( __FILE__ ) . '/inc/settings.php' );
+
+/**
+ * Add checkout in the single lp_course
+ */
+add_action(
+	'learn-press/course-content-summary',
+	function () {
+		get_template_part( '/template-parts/pagseguro' );
+	},
+	74
+);

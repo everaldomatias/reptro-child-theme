@@ -11,3 +11,115 @@ Text Domain:  reptro
 */
 
 /* Write here your own personal stylesheet */
+
+.form-pagseguro-checkout {
+    background-color: white;
+    box-shadow: 0px 0px 60px -6px rgba(10, 10, 10, 0.2);
+    padding: 30px;
+}
+
+/* Botão desabilitado */
+.form-pagseguro-checkout .disabled {
+    pointer-events: none;
+    opacity: .7;
+}
+
+.form-pagseguro-checkout #form-acceptance {
+    text-align: center;
+}
+
+/* Botão Matricule-se */
+.form-pagseguro-checkout #form-acceptance #button-acceptance-of-terms {
+    background-color: var(--lp-primary-color);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .3px;
+    line-height: normal;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: background-color .3s ease 0s,color .3s ease 0s,border-radius .3s ease 0s;
+}
+
+/* Botão PagSeguro */
+.form-pagseguro-checkout #submit-pagseguro {
+    background-color: brown;
+    background-color: white;
+    background-image: url('./assets/images/pagseguro.png');
+    background-position: calc(100% - 15px) center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border: 2px solid rgb(8, 71, 112);
+    color: rgb(85, 85, 85);
+    padding-right: 130px;
+    transition: background-color .3s ease 0s,color .3s ease 0s,border-radius .3s ease 0s;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-pagseguro-checkout #submit-pagseguro:hover {
+    background-color: whitesmoke;
+}
+
+.form-pagseguro-checkout #form-checkout label {
+    float: left;
+    width: 50%;
+}
+
+.form-pagseguro-checkout #form-checkout input[type="text"],
+.form-pagseguro-checkout #form-checkout input[type="email"] {
+    max-width: calc(100% - 15px);
+    margin-right: 15px;
+}
+
+.form-pagseguro-checkout #form-checkout br {
+    display: none
+}
+
+.form-pagseguro-checkout #form-checkout p:first-child {
+    margin-bottom: 30px;
+}
+
+.form-pagseguro-checkout #form-checkout p:last-child {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.form-pagseguro-checkout #form-checkout p:last-child .ajax-loader {
+    margin: 0 auto 15px auto;
+}
+
+.form-pagseguro-checkout .wpcf7-response-output {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and ( max-width: 768px ) {
+    .form-pagseguro-checkout #form-checkout label {
+        float: none;
+        width: 100%;
+    }
+
+    .form-pagseguro-checkout #form-checkout input[type="text"],
+    .form-pagseguro-checkout #form-checkout input[type="email"] {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and ( max-width: 520px ) {
+    .form-pagseguro-checkout #submit-pagseguro {
+        background-image: none;
+        padding-right: 30px;
+    }
+
+    .form-pagseguro-checkout .wpcf7-response-output {
+        text-align: center;
+    }
+}
