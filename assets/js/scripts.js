@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (cf7Form) {
-        cf7Form.addEventListener('wpcf7mailsent', (event) => {
+        // Referência: https://contactform7.com/dom-events/
+        cf7Form.addEventListener('wpcf7submit', (event) => {
             submitPagSeguro.click()
         })
     }
