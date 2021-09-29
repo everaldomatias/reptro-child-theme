@@ -139,3 +139,13 @@ Text Domain:  reptro
     height: 100%;
     width: 100%;
 }
+
+.home #home-slider > .elementor-container {
+    align-items: stretch;
+}
+
+.home #home-slider > .elementor-container .elementor-widget-reptro_hero_area,
+.home #home-slider > .elementor-container .elementor-widget-reptro_hero_area .elementor-widget-container,
+.home #home-slider > .elementor-container .elementor-widget-reptro_hero_area .elementor-widget-container .reptro-hero-area {
+    height: 100%;
+}
