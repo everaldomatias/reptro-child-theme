@@ -149,3 +149,270 @@ Text Domain:  reptro
 .home #home-slider > .elementor-container .elementor-widget-reptro_hero_area .elementor-widget-container .reptro-hero-area {
     height: 100%;
 }
+
+/* Customizer */
+@import "https://imepeducacional.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css" ;
+
+.botao-form{
+	color: #fff !important;
+}
+
+.div-form{
+	margin:auto !important;
+}
+.reptro-hero-area-left {
+    background: linear-gradient(to right, #5a2627, #b93e40) !important;
+}
+
+.course-info{
+	display:none !important;
+}
+
+.reptro-course-category-item h4 {
+	white-space: unset !important;
+}
+
+/*.price{
+	display:none !important;
+}*/
+
+.price{
+	display:none !important;
+}
+
+.button-enroll-course{
+	display:none !important;
+}
+.learn-press-course-wishlist{
+	display:none !important;
+}
+
+/*.course-payment{
+	display:none !important;
+}*/
+
+
+.course-payment{
+	display:none !important;
+}
+
+.course-meta{
+	margin-bottom: 0px !important;
+}
+.xt-course-info{
+	display: none;
+}
+
+.entry-content .reptro-course-items > li,
+.entry-content .reptro-course-items > .course,
+.ld-course-list-items .course,
+ul.learn-press-courses .course,
+.xt-blog-post-grid .xt-blog {
+	-webkit-transform: unset !important;
+  transform: unset !important;
+}
+
+.section-item-link{
+pointer-events: none;
+   cursor: default;
+}
+
+.course-item-meta{
+	display: none !important;
+}
+
+.xt-course-content{
+	border-right: 0px !important;
+}
+
+/* Login page */
+body.tml-action-login button.tml-button {
+	padding: 8px 26px;
+	background-color: #084770;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 27px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	border: 0;
+	
+}
+body.tml-action-login button.tml-button:hover {
+	background-color: #812A2B;
+	border-color: transparent;
+	transition: all .4s ease-out;
+	text-decoration: none;
+	outline: 0;
+}
+input:disabled {
+  background: #ccc;
+}
+
+input[type=submit]:hover:disabled
+{
+	background: #ccc
+}
+
+.form-control-matricula {
+    display: block;
+    width: 100%;
+    height: 54px;
+    padding: 6px 12px 7px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #555;
+    font-weight: 600;
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #555;
+    border-color: #e2e2e2;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 0px 0px transparent;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s!important;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s!important;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s!important;
+    -webkit-appearance: none;
+}
+
+.course-curriculum ul.curriculum-sections .section.section-empty .learn-press-message {
+    margin-left: 15px;
+    display: none !important;
+    margin-right: 15px;
+}
+
+.course-curriculum ul.curriculum-sections .section-header .section-desc {
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify !important;
+}
+
+.course-nav-tab-instructor{
+	display:none !important;
+}
+
+.elementor-progress-text {
+    font-size: 15px;
+		font-weight: bold;
+}
+
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+   background-color: #084770 !important;
+}
+
+.desabilitado{
+	background: #ccc !important;
+}
+
+.desabilitado :hover{
+	background: #ccc !important;
+}
+
+.desabilitado :focus{
+	background: #ccc !important;
+}
+
+#button{
+	    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
+}
+
+.xt-footer .footer-social ul li:last-child a{
+	background-color: #25D366 !important;
+}
+
+.xt-footer .footer-social ul li:last-child a:hover{
+	background-color: #1c8e47 !important;
+}
+
+
+.xt-header-top .header-social li:last-child a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #25D366 !important;
+}
+
+.xt-header-top .header-social li:last-child a:hover{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #1c8e47 !important;
+}
+
+course-nav-tab-curriculum{
+	display: none !important;
+}
+
+learn-press-nav-tabs{
+	display: none !important;
+}
+
+.pum-theme-7396 .pum-container, .pum-theme-lightbox .pum-container {
+	border: 0px !important;
+}
+
+.course-summary .entry-title {
+    margin-bottom: 0 !important;
+}
+
+#Embed{
+animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    color: #fff !important;
+    border: 0;
+    padding: 12px 30px;
+}
+
+navigation post-navigation{
+	display:none !important;
+}
+
+.course-meta.course-meta-secondary {
+    display: none !important;
+}
+
+.course-meta.course-meta-primary {
+    display: none !important;
+}
+
+.course-title{
+	margin-bottom: 0px !important;
+}
+
+.site-content .course-tabs ul.learn-press-nav-tabs, body .learn-press-tabs .learn-press-tabs__nav {
+    display: none !important;
+}
+
+/* Slider Home */
+.elementor-361 .elementor-element.elementor-element-a1b3c83 .reptro-hero-area-right {
+    padding: 0px 0px 0px 0px;
+    display: none;
+}
