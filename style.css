@@ -125,3 +125,17 @@ Text Domain:  reptro
         text-align: center;
     }
 }
+
+/* Home -> Elementor slider */
+.home #home-slider .elementor-widget-image-carousel,
+.home #home-slider .elementor-widget-image-carousel .elementor-widget-container,
+.home #home-slider .elementor-widget-image-carousel .elementor-widget-container .elementor-image-carousel-wrapper,
+.home #home-slider .elementor-widget-image-carousel .elementor-widget-container .elementor-image-carousel-wrapper figure {
+    height: 100%;
+}
+
+.home #home-slider .elementor-widget-image-carousel .elementor-widget-container .elementor-image-carousel-wrapper figure img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
